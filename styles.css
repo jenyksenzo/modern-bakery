@@ -1,0 +1,172 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v24-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v24-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v24-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins-v24-latin-900.woff2') format('woff2');
+}
+
+/* general */
+
+:root {
+  --color-light-green: #819b57;
+  --color-dark-green: #465929;
+  --color-dark: #31261a;
+  --color-light: #faf4ea;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.link {
+  color: var(--color-light);
+}
+
+.link:hover {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-light-green);
+}
+
+.order-button {
+  border: none;
+  background-color: var(--color-light-green);
+  border: 2px solid var(--color-light-green);
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-light);
+}
+
+.order-button:hover {
+  background-color: transparent;
+  color: var(--color-dark-green);
+}
+
+/* hero section */
+
+.hero-head {
+  font-weight: 900;
+  font-size: 128px;
+  text-align: center;
+  color: var(--color-light);
+}
+
+.hero-head-span {
+  color: var(--color-light-green);
+}
+
+.hero-list {
+  background-color: var(--color-light-green);
+}
+
+.hero-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--color-light);
+}
+
+/* Traditions section */
+
+.traditions-head {
+  text-align: unset;
+}
+
+.shop-span {
+  text-transform: uppercase;
+}
+
+.traditions-span {
+  color: var(--color-light-green);
+  font-weight: 600;
+}
+
+/* Our chefs section */
+
+.chefs-head-span {
+  color: var(--color-dark-green);
+}
+
+.chef-name-head {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* Formats section */
+
+.format-card-head {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color-light);
+}
+
+.format-card-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--color-light);
+}
+
+/* Join us section */
+
+.join-head {
+  text-align: unset;
+}
+
+.join-policy-text {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+
+.police-span {
+  text-decoration: underline;
+}
