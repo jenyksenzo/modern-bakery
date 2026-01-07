@@ -167,6 +167,21 @@ h2 {
   text-align: center;
 }
 
-.police-span {
+.policy-link {
   text-decoration: underline;
+  color: var(--color-dark);
+}
+
+/* Footer */
+
+.address-link,
+.footer-policy-text {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--color-light);
+}
+
+.footer-protect-text {
+  font-size: 14px;
+  color: #a18268;
 }
